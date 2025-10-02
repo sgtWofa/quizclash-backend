@@ -1,0 +1,40 @@
+# QuizClash Production Requirements
+# Minimal dependencies for backend deployment (no GUI dependencies)
+
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+starlette==0.27.0
+
+# Database
+SQLAlchemy==2.0.23
+alembic==1.12.1
+
+# Authentication & Security
+python-jose==3.3.0
+passlib==1.7.4
+bcrypt==4.0.1
+python-multipart==0.0.6
+cryptography==45.0.7
+
+# Validation
+pydantic==2.5.0
+pydantic_core==2.14.1
+
+# HTTP Client
+requests==2.31.0
+httpx==0.25.2
+httpcore==1.0.9
+
+# Utilities
+python-dotenv==1.0.0
+python-dateutil==2.9.0.post0
+
+# Database Drivers (for PostgreSQL if needed)
+psycopg2-binary==2.9.9
+
+# ASGI Server
+gunicorn==21.2.0
+
+# Monitoring (optional)
+# sentry-sdk==1.38.0
